@@ -1,2 +1,2 @@
 # JTAG-adapter-board
-My all-in-one adapter board
+JTAG adapter board with most used connectors
