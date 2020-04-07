@@ -1571,8 +1571,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="CNAME" value="JTAG adapter"/>
-<attribute name="CREVISION" value="V1"/>
+<attribute name="CNAME" value="JTAG adapter board"/>
+<attribute name="CREVISION" value="V1.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1602,6 +1602,8 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <text x="220.98" y="41.91" size="1.524" layer="97" font="vector" align="top-left">nTRST: active low, goes to target JTAG port
     (not required)
 RST: active low, target CPU reset signal</text>
+<text x="185.42" y="20.32" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="237.49" y="5.08" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="3.81" y="3.81" smashed="yes">
