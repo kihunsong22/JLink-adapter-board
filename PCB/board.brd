@@ -216,14 +216,14 @@
 <text x="32.131" y="20.828" size="1.1684" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">TDO</text>
 <text x="32.131" y="23.368" size="1.1684" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">RST</text>
 <text x="32.131" y="33.528" size="1.1684" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">VCC</text>
-<text x="27.305" y="28.448" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">GND</text>
-<text x="27.305" y="25.908" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">TMS</text>
-<text x="27.305" y="30.988" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">TCK</text>
-<text x="27.305" y="20.828" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">TDO</text>
-<text x="27.305" y="23.368" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">RST</text>
-<text x="27.305" y="33.528" size="1.1684" layer="21" font="vector" ratio="15" align="bottom-right">VCC</text>
-<text x="4.064" y="8.763" size="1.778" layer="21" font="vector" ratio="15" align="top-left">&gt;CNAME</text>
-<text x="27.686" y="8.763" size="1.778" layer="21" font="vector" ratio="15" align="top-left">&gt;CREVISION</text>
+<text x="27.305" y="28.956" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">GND</text>
+<text x="27.305" y="26.416" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">TMS</text>
+<text x="27.305" y="31.496" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">TCK</text>
+<text x="27.305" y="21.336" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">TDO</text>
+<text x="27.305" y="23.876" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">RST</text>
+<text x="27.305" y="34.036" size="1.1684" layer="21" font="vector" ratio="15" rot="SR180" align="center-left">VCC</text>
+<text x="33.782" y="6.731" size="1.778" layer="21" font="vector" ratio="15" rot="SR180" align="top-left">&gt;CNAME</text>
+<text x="9.398" y="6.731" size="1.778" layer="21" font="vector" ratio="15" rot="SR180" align="top-left">&gt;CREVISION</text>
 <text x="2.667" y="25.146" size="1.524" layer="22" font="vector" ratio="15" rot="MR270" align="center">&gt;GITHUB</text>
 <dimension x1="1" y1="0" x2="18.5" y2="0" x3="9.75" y3="52.5" textsize="1.778" layer="51"/>
 </plain>
