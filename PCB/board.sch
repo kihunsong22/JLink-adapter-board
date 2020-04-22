@@ -1436,7 +1436,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="CNAME" value="JTAG adapter board"/>
-<attribute name="CREVISION" value="V1.2"/>
+<attribute name="CREVISION" value="V1.3"/>
 </attributes>
 <variantdefs>
 </variantdefs>

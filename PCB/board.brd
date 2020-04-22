@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -521,7 +521,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="CNAME" value="JTAG adapter board"/>
-<attribute name="CREVISION" value="V1.2"/>
+<attribute name="CREVISION" value="V1.3"/>
 <attribute name="GITHUB" value="github.com/angrypig7/JTAG-adapter-board"/>
 </attributes>
 <variantdefs>
@@ -720,7 +720,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="J8" library="angrypig7-Connectors-Programming" package="MOLEX-1X4-2.54MM" value="CONN-1X4" x="31.082" y="46.736" smashed="yes" rot="R270"/>
 <element name="J9" library="angrypig7-Connectors-Programming" package="MOLEX-1X6-2.54MM" value="CONN-1X6" x="31.082" y="34.036" smashed="yes" rot="R270"/>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="TCK-RTCK" x="23.368" y="26.416" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="21.209" y="26.416" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+<attribute name="VALUE" x="21.209" y="26.416" size="1.016" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="J10" library="angrypig7-Connectors-Programming" package="2X5-1.27MM-SHROUDED_PTH+SMD" value="PROG-HEADER_2X5_1.27MM-SHROUDED_PTH_SMD" x="23.368" y="41.402" smashed="yes" rot="R270"/>
 <element name="J2" library="angrypig7-Connectors-Programming" package="2X5-2.00MM-SHROUDED" value="PROG-HEADER_2X5_2.00MM-SHROUDED" x="4.826" y="39.37" smashed="yes" rot="R180"/>
