@@ -1,7 +1,7 @@
 # JTAG-adapter-board
 JTAG adapter board with most used connectors
 
-![V1.1 assembled PCB picture](./Pics/V1.1-all.jpg "V1.1 assembled PCB picture")
+![V1.2 assembled PCB picture](./Pics/V1.2/V1.2-all.jpg "V1.2 assembled PCB picture")
 
 ### List of Connectors
 * 2.54mm 2*10 pin right-angle IDC connector
