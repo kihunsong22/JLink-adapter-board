@@ -1822,6 +1822,36 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J9" gate="G$1" pin="3"/>
 <wire x1="207.01" y1="116.84" x2="201.93" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="54.61" y1="123.19" x2="49.53" y2="123.19" width="0.1524" layer="91"/>
+<label x="49.53" y="123.19" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="54.61" y1="118.11" x2="49.53" y2="118.11" width="0.1524" layer="91"/>
+<label x="49.53" y="118.11" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="9"/>
+</segment>
+<segment>
+<wire x1="54.61" y1="97.79" x2="49.53" y2="97.79" width="0.1524" layer="91"/>
+<label x="49.53" y="97.79" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="54.61" y1="92.71" x2="49.53" y2="92.71" width="0.1524" layer="91"/>
+<label x="49.53" y="92.71" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="9"/>
+</segment>
+<segment>
+<wire x1="54.61" y1="73.66" x2="49.53" y2="73.66" width="0.1524" layer="91"/>
+<label x="49.53" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="54.61" y1="68.58" x2="49.53" y2="68.58" width="0.1524" layer="91"/>
+<label x="49.53" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="9"/>
+</segment>
 </net>
 <net name="RTCK" class="0">
 <segment>

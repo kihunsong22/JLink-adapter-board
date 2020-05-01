@@ -226,6 +226,8 @@
 <text x="9.398" y="6.731" size="1.778" layer="21" font="vector" ratio="15" rot="SR180" align="top-left">&gt;CREVISION</text>
 <text x="2.667" y="25.146" size="1.524" layer="22" font="vector" ratio="15" rot="MR270" align="center">&gt;GITHUB</text>
 <dimension x1="1" y1="0" x2="18.5" y2="0" x3="9.75" y3="52.5" textsize="1.778" layer="51"/>
+<text x="11.43" y="27.178" size="1.1684" layer="22" font="vector" ratio="15" rot="MR315" align="bottom-right">GND</text>
+<text x="6.35" y="27.178" size="1.1684" layer="22" font="vector" ratio="15" rot="MR315" align="bottom-right">GND</text>
 </plain>
 <libraries>
 <library name="angrypig7-Connectors-Programming">
@@ -1022,6 +1024,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="12.192" y="48.514" extent="1-16" drill="0.35"/>
 <via x="8.89" y="30.734" extent="1-16" drill="0.35"/>
 <via x="4.064" y="46.736" extent="1-16" drill="0.35"/>
+<contactref element="J3" pad="5"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J10" pad="15"/>
+<contactref element="J10" pad="5"/>
+<contactref element="J10" pad="9"/>
+<contactref element="J10" pad="19"/>
+<contactref element="J2" pad="5"/>
+<contactref element="J2" pad="9"/>
 </signal>
 <signal name="RTCK">
 <contactref element="J3" pad="7"/>
@@ -1147,10 +1157,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="19,1,bced957b3b1e5dbd"/>
-<approved hash="19,1,a41acd346533a797"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
