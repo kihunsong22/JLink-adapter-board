@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -801,6 +801,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.201" y1="1.773" x2="3.201" y2="3.551" width="0.254" layer="21"/>
 <wire x1="3.201" y1="1.011" x2="3.201" y2="2.789" width="0.254" layer="22"/>
 </package>
+<package name="2X10-2.54MM-END-LAUNCH">
+<wire x1="-2.305" y1="10.7696" x2="-2.305" y2="12.065" width="0.4064" layer="21"/>
+<text x="-2.364" y="-12.118" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<smd name="1" x="0" y="11.43" dx="4" dy="1.6" layer="1"/>
+<smd name="3" x="0" y="8.89" dx="4" dy="1.6" layer="1"/>
+<smd name="5" x="0" y="6.35" dx="4" dy="1.6" layer="1"/>
+<smd name="7" x="0" y="3.81" dx="4" dy="1.6" layer="1"/>
+<smd name="9" x="0" y="1.27" dx="4" dy="1.6" layer="1"/>
+<smd name="11" x="0" y="-1.27" dx="4" dy="1.6" layer="1"/>
+<smd name="13" x="0" y="-3.81" dx="4" dy="1.6" layer="1"/>
+<smd name="15" x="0" y="-6.35" dx="4" dy="1.6" layer="1"/>
+<smd name="17" x="0" y="-8.89" dx="4" dy="1.6" layer="1"/>
+<smd name="19" x="0" y="-11.43" dx="4" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="11.43" dx="4" dy="1.6" layer="16"/>
+<smd name="4" x="0" y="8.89" dx="4" dy="1.6" layer="16"/>
+<smd name="6" x="0" y="6.35" dx="4" dy="1.6" layer="16"/>
+<smd name="8" x="0" y="3.81" dx="4" dy="1.6" layer="16"/>
+<smd name="10" x="0" y="1.27" dx="4" dy="1.6" layer="16"/>
+<smd name="12" x="0" y="-1.27" dx="4" dy="1.6" layer="16"/>
+<smd name="14" x="0" y="-3.81" dx="4" dy="1.6" layer="16"/>
+<smd name="16" x="0" y="-6.35" dx="4" dy="1.6" layer="16"/>
+<smd name="18" x="0" y="-8.89" dx="4" dy="1.6" layer="16"/>
+<smd name="20" x="0" y="-11.43" dx="4" dy="1.6" layer="16"/>
+<wire x1="2.286" y1="12.7" x2="2.286" y2="-12.7" width="0.2032" layer="21"/>
+<wire x1="2.286" y1="-12.7" x2="0.508" y2="-12.7" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-12.7" x2="0.508" y2="-12.446" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-12.446" x2="-1.778" y2="-12.446" width="0.2032" layer="21"/>
+<wire x1="2.286" y1="12.7" x2="0.254" y2="12.7" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="12.7" x2="0.254" y2="12.446" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="12.446" x2="-1.778" y2="12.446" width="0.2032" layer="21"/>
+<wire x1="2" y1="15" x2="2" y2="-15" width="0.2032" layer="51"/>
+<wire x1="2" y1="15" x2="9" y2="15" width="0.2032" layer="51"/>
+<wire x1="2" y1="-15" x2="9" y2="-15" width="0.2032" layer="51"/>
+<wire x1="9" y1="15" x2="9" y2="-15" width="0.2032" layer="51"/>
+<wire x1="8.89" y1="1.27" x2="7.62" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="8.89" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.286" y1="1.016" x2="-2.54" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.286" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-2.286" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="-1.524" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PROG-HEADER_2X3">
@@ -1211,6 +1254,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="_2.54MM-END-LAUNCH" package="2X10-2.54MM-END-LAUNCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN-1X4" prefix="J">
@@ -1457,7 +1527,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="TCK-RTCK"/>
 <part name="J10" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X5" device="_1.27MM-SHROUDED_PTH_SMD" value="PROG-HEADER_2X5_1.27MM-SHROUDED_PTH_SMD"/>
 <part name="J2" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X5" device="_2.00MM-SHROUDED"/>
-<part name="J5" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X10" device="_RIGHT-ANGLE"/>
+<part name="J4" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X10" device="_2.54MM-END-LAUNCH"/>
 </parts>
 <sheets>
 <sheet>
@@ -1508,7 +1578,7 @@ RST: active low, target CPU reset signal</text>
 <attribute name="NAME" x="59.69" y="81.788" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="59.69" y="63.754" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="135.89" y="124.46" smashed="yes">
+<instance part="J4" gate="G$1" x="135.89" y="124.46" smashed="yes">
 <attribute name="NAME" x="132.08" y="138.938" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="132.08" y="108.204" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -1555,7 +1625,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="135.89" x2="121.92" y2="135.89" width="0.1524" layer="91"/>
 <label x="121.92" y="135.89" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TMS" class="0">
@@ -1592,7 +1662,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="128.27" x2="121.92" y2="128.27" width="0.1524" layer="91"/>
 <label x="121.92" y="128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="7"/>
+<pinref part="J4" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <label x="207.01" y="114.3" size="1.27" layer="95" xref="yes"/>
@@ -1629,7 +1699,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="120.65" x2="121.92" y2="120.65" width="0.1524" layer="91"/>
 <label x="121.92" y="120.65" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="13"/>
+<pinref part="J4" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <label x="207.01" y="109.22" size="1.27" layer="95" xref="yes"/>
@@ -1661,7 +1731,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="130.81" x2="121.92" y2="130.81" width="0.1524" layer="91"/>
 <label x="121.92" y="130.81" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="5"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -1693,7 +1763,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="118.11" x2="121.92" y2="118.11" width="0.1524" layer="91"/>
 <label x="121.92" y="118.11" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="15"/>
+<pinref part="J4" gate="G$1" pin="15"/>
 </segment>
 <segment>
 <label x="207.01" y="111.76" size="1.27" layer="95" xref="yes"/>
@@ -1775,47 +1845,47 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="144.78" y1="133.35" x2="149.86" y2="133.35" width="0.1524" layer="91"/>
 <label x="149.86" y="133.35" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="130.81" x2="149.86" y2="130.81" width="0.1524" layer="91"/>
 <label x="149.86" y="130.81" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="6"/>
+<pinref part="J4" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="113.03" x2="149.86" y2="113.03" width="0.1524" layer="91"/>
 <label x="149.86" y="113.03" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="20"/>
+<pinref part="J4" gate="G$1" pin="20"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="115.57" x2="149.86" y2="115.57" width="0.1524" layer="91"/>
 <label x="149.86" y="115.57" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="18"/>
+<pinref part="J4" gate="G$1" pin="18"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="118.11" x2="149.86" y2="118.11" width="0.1524" layer="91"/>
 <label x="149.86" y="118.11" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="16"/>
+<pinref part="J4" gate="G$1" pin="16"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="120.65" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
 <label x="149.86" y="120.65" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="14"/>
+<pinref part="J4" gate="G$1" pin="14"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="123.19" x2="149.86" y2="123.19" width="0.1524" layer="91"/>
 <label x="149.86" y="123.19" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="12"/>
+<pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="125.73" x2="149.86" y2="125.73" width="0.1524" layer="91"/>
 <label x="149.86" y="125.73" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="10"/>
+<pinref part="J4" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="128.27" x2="149.86" y2="128.27" width="0.1524" layer="91"/>
 <label x="149.86" y="128.27" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="8"/>
+<pinref part="J4" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <label x="207.01" y="116.84" size="1.27" layer="95" xref="yes"/>
@@ -1882,7 +1952,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="123.19" x2="121.92" y2="123.19" width="0.1524" layer="91"/>
 <label x="121.92" y="123.19" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="11"/>
+<pinref part="J4" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="TCK" class="0">
@@ -1924,7 +1994,7 @@ RST: active low, target CPU reset signal</text>
 <segment>
 <wire x1="127" y1="125.73" x2="121.92" y2="125.73" width="0.1524" layer="91"/>
 <label x="121.92" y="125.73" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="9"/>
+<pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <label x="207.01" y="119.38" size="1.27" layer="95" xref="yes"/>
@@ -1934,9 +2004,9 @@ RST: active low, target CPU reset signal</text>
 </net>
 <net name="NTRST" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="127" y1="133.35" x2="121.92" y2="133.35" width="0.1524" layer="91"/>
 <label x="121.92" y="133.35" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="127" y1="95.25" x2="121.92" y2="95.25" width="0.1524" layer="91"/>
