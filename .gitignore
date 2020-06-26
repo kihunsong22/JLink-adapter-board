@@ -6,6 +6,8 @@ Thumbs.db
 workspace.xml
 
 # EAGLE temporary files
+*.b##
+*.s##
 *.b#[0-9]
 *.s#[0-9]
 *.l#[0-9]
