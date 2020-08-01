@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -824,11 +824,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="16" x="0" y="-6.35" dx="4" dy="1.6" layer="16" rot="R180"/>
 <smd name="18" x="0" y="-8.89" dx="4" dy="1.6" layer="16" rot="R180"/>
 <smd name="20" x="0" y="-11.43" dx="4" dy="1.6" layer="16" rot="R180"/>
-<wire x1="-2.286" y1="-12.7" x2="-2.286" y2="12.7" width="0.2032" layer="21"/>
-<wire x1="-2.286" y1="12.7" x2="-0.508" y2="12.7" width="0.2032" layer="21"/>
+<wire x1="-2" y1="12.7" x2="-0.508" y2="12.7" width="0.2032" layer="21"/>
 <wire x1="-0.508" y1="12.7" x2="-0.508" y2="12.446" width="0.2032" layer="21"/>
 <wire x1="-0.508" y1="12.446" x2="1.778" y2="12.446" width="0.2032" layer="21"/>
-<wire x1="-2.286" y1="-12.7" x2="-0.254" y2="-12.7" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-12.7" x2="-0.254" y2="-12.7" width="0.2032" layer="21"/>
 <wire x1="-0.254" y1="-12.7" x2="-0.254" y2="-12.446" width="0.2032" layer="21"/>
 <wire x1="-0.254" y1="-12.446" x2="1.778" y2="-12.446" width="0.2032" layer="21"/>
 <wire x1="-2" y1="-15" x2="-2" y2="15" width="0.2032" layer="51"/>
@@ -838,11 +837,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-8.89" y1="-1.27" x2="-7.62" y2="-1.27" width="0.2032" layer="51"/>
 <wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.2032" layer="51"/>
 <wire x1="-7.62" y1="1.27" x2="-8.89" y2="1.27" width="0.2032" layer="51"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="1.016" x2="2.286" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="2.286" y1="-1.016" x2="2.286" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="2.286" y1="1.016" x2="2.286" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-1.27" x2="2.54" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.159" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="1.27" x2="2.159" y2="1.778" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1323,21 +1322,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="angrypig7-Jumpers">
 <packages>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 <package name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:footprint:39252/1">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
@@ -1366,20 +1366,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.42875" y="0" curve="-90"/>
 </polygon>
 </package>
-<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
 <package name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:footprint:39255/1">
 <smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
 <smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -1405,6 +1391,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
 <package3d name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:package:39277/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NO_NO-SILK"/>
@@ -1413,11 +1404,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:package:39278/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NO_NO-SILK_ROUND"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
 </packageinstances>
 </package3d>
 <package3d name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:package:39280/1" type="box">
@@ -1506,7 +1492,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="CNAME" value="JTAG adapter board"/>
-<attribute name="CREVISION" value="V1.4"/>
+<attribute name="CREVISION" value="V1.5"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1524,7 +1510,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X10" device="_SHROUDED"/>
 <part name="J8" library="angrypig7-Connectors-Programming" deviceset="CONN-1X4" device=""/>
 <part name="J9" library="angrypig7-Connectors-Programming" deviceset="CONN-1X6" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="TCK-RTCK"/>
+<part name="JP1" library="angrypig7-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="TCK-RTCK"/>
 <part name="J10" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X5" device="_1.27MM-SHROUDED_PTH_SMD" value="PROG-HEADER_2X5_1.27MM-SHROUDED_PTH_SMD"/>
 <part name="J2" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X5" device="_2.00MM-SHROUDED"/>
 <part name="J4" library="angrypig7-Connectors-Programming" deviceset="PROG-HEADER_2X10" device="_2.54MM-END-LAUNCH"/>
@@ -1548,7 +1534,7 @@ RST: active low, target CPU reset signal</text>
 <attribute name="CREVISION" x="238.73" y="4.98" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="63.5" y="143.51" smashed="yes">
-<attribute name="NAME" x="57.15" y="149.098" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="59.69" y="149.098" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="57.15" y="136.144" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J3" gate="G$1" x="63.5" y="123.19" smashed="yes">
@@ -1560,12 +1546,12 @@ RST: active low, target CPU reset signal</text>
 <attribute name="VALUE" x="132.08" y="70.104" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J8" gate="G$1" x="196.85" y="139.7" smashed="yes">
-<attribute name="VALUE" x="191.77" y="132.334" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="191.77" y="147.828" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="196.85" y="131.064" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="196.85" y="146.558" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J9" gate="G$1" x="196.85" y="114.3" smashed="yes">
-<attribute name="VALUE" x="191.77" y="104.394" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="191.77" y="124.968" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="196.85" y="103.124" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="196.85" y="123.698" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JP1" gate="G$1" x="152.4" y="11.43" smashed="yes">
 <attribute name="NAME" x="149.86" y="13.97" size="1.778" layer="95" font="vector"/>
@@ -1586,7 +1572,7 @@ RST: active low, target CPU reset signal</text>
 <busses>
 </busses>
 <nets>
-<net name="VCC" class="0">
+<net name="VREF" class="0">
 <segment>
 <wire x1="54.61" y1="128.27" x2="49.53" y2="128.27" width="0.1524" layer="91"/>
 <label x="49.53" y="128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -1598,14 +1584,14 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="204.47" y1="135.89" x2="207.01" y2="137.16" width="0.1524" layer="91"/>
-<label x="207.01" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="204.47" y1="135.89" x2="207.01" y2="135.89" width="0.1524" layer="91"/>
+<label x="207.01" y="135.89" size="1.27" layer="95" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<label x="207.01" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="120.65" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="207.01" y1="121.92" x2="204.47" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="120.65" x2="204.47" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -1640,8 +1626,8 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J6" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="204.47" y1="138.43" x2="207.01" y2="139.7" width="0.1524" layer="91"/>
-<label x="207.01" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="204.47" y1="138.43" x2="207.01" y2="138.43" width="0.1524" layer="91"/>
+<label x="207.01" y="138.43" size="1.27" layer="95" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="3"/>
 </segment>
 <segment>
@@ -1665,9 +1651,9 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J4" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<label x="207.01" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="113.03" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="4"/>
-<wire x1="204.47" y1="113.03" x2="207.01" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="113.03" x2="207.01" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TDO" class="0">
@@ -1702,9 +1688,9 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J4" gate="G$1" pin="13"/>
 </segment>
 <segment>
-<label x="207.01" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="107.95" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="6"/>
-<wire x1="204.47" y1="107.95" x2="207.01" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="107.95" x2="207.01" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TDI" class="0">
@@ -1733,6 +1719,11 @@ RST: active low, target CPU reset signal</text>
 <label x="121.92" y="130.81" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<wire x1="54.61" y1="143.51" x2="49.53" y2="143.51" width="0.1524" layer="91"/>
+<label x="49.53" y="143.51" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="RST" class="0">
 <segment>
@@ -1744,11 +1735,6 @@ RST: active low, target CPU reset signal</text>
 <wire x1="127" y1="80.01" x2="121.92" y2="80.01" width="0.1524" layer="91"/>
 <label x="121.92" y="80.01" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="G$1" pin="15"/>
-</segment>
-<segment>
-<wire x1="54.61" y1="143.51" x2="49.53" y2="143.51" width="0.1524" layer="91"/>
-<label x="49.53" y="143.51" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="72.39" y1="92.71" x2="77.47" y2="92.71" width="0.1524" layer="91"/>
@@ -1766,9 +1752,9 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J4" gate="G$1" pin="15"/>
 </segment>
 <segment>
-<label x="207.01" y="111.76" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="110.49" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="5"/>
-<wire x1="204.47" y1="110.49" x2="207.01" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="110.49" x2="207.01" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1828,8 +1814,8 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J6" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="204.47" y1="143.51" x2="207.01" y2="144.78" width="0.1524" layer="91"/>
-<label x="207.01" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="204.47" y1="143.51" x2="207.01" y2="143.51" width="0.1524" layer="91"/>
+<label x="207.01" y="143.51" size="1.27" layer="95" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -1888,9 +1874,9 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J4" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<label x="207.01" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="115.57" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="3"/>
-<wire x1="207.01" y1="116.84" x2="204.47" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="115.57" x2="204.47" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="54.61" y1="123.19" x2="49.53" y2="123.19" width="0.1524" layer="91"/>
@@ -1957,8 +1943,8 @@ RST: active low, target CPU reset signal</text>
 </net>
 <net name="TCK" class="0">
 <segment>
-<wire x1="204.47" y1="140.97" x2="207.01" y2="142.24" width="0.1524" layer="91"/>
-<label x="207.01" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="204.47" y1="140.97" x2="207.01" y2="140.97" width="0.1524" layer="91"/>
+<label x="207.01" y="140.97" size="1.27" layer="95" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -1997,9 +1983,9 @@ RST: active low, target CPU reset signal</text>
 <pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<label x="207.01" y="119.38" size="1.27" layer="95" xref="yes"/>
+<label x="207.01" y="118.11" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="2"/>
-<wire x1="204.47" y1="118.11" x2="207.01" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="118.11" x2="207.01" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NTRST" class="0">
@@ -2012,6 +1998,42 @@ RST: active low, target CPU reset signal</text>
 <wire x1="127" y1="95.25" x2="121.92" y2="95.25" width="0.1524" layer="91"/>
 <label x="121.92" y="95.25" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="2" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="135.89" x2="149.86" y2="135.89" width="0.1524" layer="91"/>
+<label x="149.86" y="135.89" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="97.79" x2="149.86" y2="97.79" width="0.1524" layer="91"/>
+<label x="149.86" y="97.79" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="17" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="17"/>
+<wire x1="127" y1="77.47" x2="121.92" y2="77.47" width="0.1524" layer="91"/>
+<label x="121.92" y="77.47" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="17"/>
+<wire x1="127" y1="115.57" x2="121.92" y2="115.57" width="0.1524" layer="91"/>
+<label x="121.92" y="115.57" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="19" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="19"/>
+<wire x1="127" y1="74.93" x2="121.92" y2="74.93" width="0.1524" layer="91"/>
+<label x="121.92" y="74.93" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="19"/>
+<wire x1="127" y1="113.03" x2="121.92" y2="113.03" width="0.1524" layer="91"/>
+<label x="121.92" y="113.03" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
