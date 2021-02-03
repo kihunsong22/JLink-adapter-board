@@ -1,5 +1,5 @@
-# JTAG-adapter-board
-JTAG adapter board with most used connectors
+# JLink-adapter-board
+JLink adapter board with most used connectors
 
 ![V1.4 assembled PCB picture](./Pics/1.jpg "PCB")
 
